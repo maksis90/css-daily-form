@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Daily form">
+	<meta name="author" content="Maksym">
+	<title>Create you account</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<div class="form">
+			<div class="form__header">
+				<h1 class="form__title">
+						<a href="index.html" class="title__link"><img src="images/sign-up-icon.png" class="title__img"></a>Create you free account
+					</h1>
+					<p class="form__subtitle">
+						Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="#" class="subtitle__link">Log in.</a>
+					</p>	
+				
+			</div>
+			<form action="#" metod="get "class="form__account" id="form">
+
+				<div class="form__field form__field-line">
+					<div class="form__field--small">
+						<label class="form__label" for="first-name"></label>
+						<input type="text" name="first-name" class="form__item" id="first-name" placeholder="Firs name">
+					</div>
+
+					<div class="form__field--small">
+						<label class="form__label" for="last-name"></label>
+						<input type="text" name="last-name" class="form__item" id="last-name" placeholder="Last name">
+					</div>
+				</div>				
+
+				<div class="form__field">
+					<label class="form__label" for="email"></label>
+					<input type="email" name="email" class="form__item" id="email" placeholder="Email address">
+				</div>
+
+				<div class="form__field">
+					<label class="form__label" for="password"></label>
+					<input type="password" name="password" class="form__item" id="password" placeholder="Password">
+				</div>
+
+				<button type="submit" class="form__button">
+					Sign up for free
+				</button>
+			</form>
+			
+			<div class="form__agreement">
+				<p class="form__poicy">By clicking on “Sign up for free”, you agree to the <a href="#" class="agreement__link">Terms of Service</a> and the <a href="#" class="agreement__link">Privacy Policy</a></p>
+			</div>
+		</div>
+	</div>
+
+<!-- LiveReload Script -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

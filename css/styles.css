@@ -1,0 +1,185 @@
+:root {
+	--font: Arial, sans-serif;
+	--red: #ea355a;
+	--violet: #bd1962;
+	--purple: #e12a6c;
+	--grey: #7a7b7f;
+	--lightgrey: #f0f0f0;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+html {
+	height: 100%;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+
+body {
+	font: 13px/20px var(--font);
+	color: var(--grey);
+	background: #ff512f;
+    background: -moz-linear-gradient(45deg, #ff512f 0%, #dd2476 61%);
+    background: -webkit-linear-gradient(45deg, #ff512f 0%,#dd2476 61%);
+    background: linear-gradient(45deg, #ff512f 0%,#dd2476 61%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff512f', endColorstr='#dd2476',GradientType=1 );
+	display: flex;
+	align-items: center;
+	position: absolute;
+}
+
+.container {
+	max-width: 100%;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0 20px;
+	
+}
+
+.form {
+	padding: 30px 30px 60px;
+	background: #FFF;
+	border-radius: 3px;
+}
+
+.form__header {
+	padding-bottom: 35px;
+}
+
+.form__title {
+	font: 700 24px/20px var(--font);
+	color: #000;
+	vertical-align: middle;
+	line-height: 25px;
+	display: flex;
+}
+
+.title__img {
+	padding-right: 10px;
+}
+
+.subtitle__link {
+	text-decoration: none;
+	color: var(--red);
+}
+
+.form__subtitle {
+	padding-top: 15px;
+}
+
+.form__account {
+	margin-bottom: 20px;
+}
+
+.form__field {
+	background: #fff;
+	padding-bottom: 15px;
+	display: block;
+}
+
+.form__field-line {
+	display: flex;
+	justify-content: space-between;	
+}
+
+.form__field--small {
+	width: 48.5%;
+}
+
+.form__item {
+	background: var(--lightgrey);
+	width: 100%;
+	border-radius: 3px;
+	font: 14px/20px var(--font);
+	padding: 10px;
+	color: var(--grey);
+	border: 1px solid var(--lightgrey);
+	
+}
+
+.form__button {
+	position: ;
+	width: 100%;
+	padding: 15px 20px;
+	cursor: pointer;
+	position: relative;
+	border-radius: 3px;
+	font: 700 18px/20px var(--font);
+	background: var(--red);
+	color: #FFF;
+	box-shadow: 0px 3px 0px var(--violet);
+	top: 0;
+	left: 0;
+	transition: all ease 0.3s;
+}
+
+.form__button:active {
+	box-shadow: 0px 1px 0px var(--violet);
+	bottom: -2px;
+	left: 1px;
+	left: -1px;
+	top: 2px;
+}
+
+.form__poicy {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.agreement__link {
+	text-decoration: none;
+	color: var(--violet);
+}
+
+.form__item:focus {
+	border: 1px solid #2579bf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
